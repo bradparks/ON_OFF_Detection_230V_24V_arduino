@@ -15,8 +15,10 @@ Advantages:
  - The Arduino circuit is clearly divided from the circuit you want to know if it's powered on. See http://en.wikipedia.org/wiki/Galvanic_isolation
  - You can detect almost all power sources if you find a suitable signal light.
  - It's simple to build an robust.
- - The c++ code is simple.
-  
+ - The c++ code is simple
+ - If the power source circuit fails for any reason, the arduino circuit would not be destroyed.
+
+ 
 How it works:
 Connect the signal light parallel to the consumer. If the consumer is turned on, then the light is on too. If the consumer is off, the light is off too.
 Place the LDR in front of the signal light. If this is done, use one of the analog PIN's of your Arduino to "read" the resistance of the LDR. 
