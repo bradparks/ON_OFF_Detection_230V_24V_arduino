@@ -1,7 +1,7 @@
 /*
   ON_OFF_DETECTION
-  GitHub: https://github.com/edvler/Icinga_Nagios_Traffic_Light
-  Web-Blog: http://www.edvler-blog.de/icinga_nagios_traffic_light_ampel
+  GitHub: https://github.com/edvler/ON_OFF_Detection_230V_24V_arduino
+  Web-Blog: 
   
   Author: Matthias Maderer
   Date: 29.03.2013
