@@ -22,17 +22,17 @@
   Step3:
   Open the Serial Monitor. Maybe you have to reset your device with the reset button.
   Now place your signal light on front of the LDR and turn it on and off.
-  You will see that the value differs significant when turned on or off.
-  Note the aproximitly value for on and off on a paper.
+  You will see that the value differs significant when the powersource is turned on or off.
+  Note the aproximitly value for on and off state non a paper.
   Keep in mind, that other light sources may influence!! 
   
   Step4:
   Change the lightOnBelow variable.
   Look at your paper for the value you noted when the light was on. You should set lightOnBelow about +100 higher.
-  Example.   You noted a value of ~950 when the signal light was of.
-             You noted a value of ~370 when the signal light was on.
+  Example.   You noted a value of ~1000 when the signal light was off.
+             You noted a value of ~750 when the signal light was on.
              
-  Then i would choose 500 for the lightOnBelow variable.
+  Then i would choose 850 for the lightOnBelow variable.
   
   Step5:
   Upload your scetch again. Now if you turn on the signal light, LED 13 on the arduino board also should light up and goes off if you turn off your signal light.
